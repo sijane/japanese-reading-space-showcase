@@ -65,6 +65,59 @@ Japanese Reading Space 是一個以 AI 為核心的日文閱讀輔助工具。
 
 此技術資訊僅用於說明原型的構建方式，並非授權使用之基礎。
 
+## 🚀 如何運行（測試用）
+
+要測試並在本地運行此展示專案：
+
+### 前置需求
+- Node.js（v18 或更高版本）
+- npm 或 yarn
+- Google Gemini API 金鑰（[在此取得](https://ai.google.dev/)）
+
+### 安裝步驟
+
+1. **複製儲存庫**
+   ```bash
+   git clone https://github.com/sijane/japanese-reading-space-showcase.git
+   cd japanese-reading-space-showcase
+   ```
+
+2. **安裝依賴套件**
+   ```bash
+   npm install
+   ```
+
+3. **設置環境變數**
+   
+   在根目錄創建 `.env.local` 檔案：
+   ```bash
+   GEMINI_API_KEY=your_api_key_here
+   ```
+   
+   將 `your_api_key_here` 替換為你的 Google Gemini API 金鑰。
+
+4. **啟動開發伺服器**
+   ```bash
+   npm run dev
+   ```
+
+5. **開啟瀏覽器**
+   
+   前往 `http://localhost:3000` 查看應用程式。
+
+### 測試檢查清單
+
+- [ ] 應用程式可以正常啟動，沒有錯誤
+- [ ] 可以貼上日文文字並進行分析
+- [ ] 可以上傳日文圖片並提取文字
+- [ ] 單詞卡片正確顯示
+- [ ] 可以將單詞儲存到字彙庫
+- [ ] 音頻測驗功能正常運作
+- [ ] 直排和橫排閱讀模式正常運作
+- [ ] 統計資料正確顯示
+
+**注意**：部分功能需要有效的 Gemini API 金鑰且配額充足。
+
 ## 🔒 使用與版權
 
 此展示版的內容（含程式碼片段、介面設計、文字、流程等）皆為原創作品，僅提供觀看與參考。

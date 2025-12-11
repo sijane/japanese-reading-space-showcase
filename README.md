@@ -65,6 +65,59 @@ This prototype is built using:
 
 Technical details are provided only to describe the prototype's construction, not as reusable open-source code.
 
+## 🚀 How to Run (For Testing)
+
+To test and run this showcase locally:
+
+### Prerequisites
+- Node.js (v18 or higher)
+- npm or yarn
+- A Google Gemini API key ([Get one here](https://ai.google.dev/))
+
+### Installation Steps
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/sijane/japanese-reading-space-showcase.git
+   cd japanese-reading-space-showcase
+   ```
+
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
+
+3. **Set up environment variables**
+   
+   Create a `.env.local` file in the root directory:
+   ```bash
+   GEMINI_API_KEY=your_api_key_here
+   ```
+   
+   Replace `your_api_key_here` with your actual Google Gemini API key.
+
+4. **Start the development server**
+   ```bash
+   npm run dev
+   ```
+
+5. **Open your browser**
+   
+   Navigate to `http://localhost:3000` to see the application.
+
+### Testing Checklist
+
+- [ ] Application starts without errors
+- [ ] Can paste Japanese text and analyze it
+- [ ] Can upload a Japanese image and extract text
+- [ ] Word cards display correctly
+- [ ] Can save words to vocabulary deck
+- [ ] Audio quiz functionality works
+- [ ] Vertical and horizontal reading modes work
+- [ ] Statistics display correctly
+
+**Note**: Some features require a valid Gemini API key with sufficient quota.
+
 ## 🔒 Usage & Copyright
 
 All contents in this showcase—including code snippets, UI design, text, flows, and visual assets—are original work and are provided for viewing only.
