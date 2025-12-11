@@ -1,0 +1,5 @@
+{
+  "name": "Copy of Japanese Text Analyzer (11.7 good)",
+  "description": "A tool to analyze Japanese text, providing furigana, word segmentation, definitions, and statistics using the Gemini API.",
+  "requestFramePermissions": []
+}
